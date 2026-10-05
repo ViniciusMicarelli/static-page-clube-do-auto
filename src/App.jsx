@@ -15,7 +15,7 @@ const CONTACT = {
 
   website: "https://www.clubedoauto.com/",
 
-  email: "contato@clubedoauto.com",
+  email: "valdi_mica@hotmail.com",
 
   logo:
     "https://static.wixstatic.com/media/cc5f9f_97428a43f5d44382b78469fbd1f87333~mv2.png/v1/fill/w_450,h_141,al_c,q_85,enc_avif,quality_auto/logo-clube-do-auto-green.png",
