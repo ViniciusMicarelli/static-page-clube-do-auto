@@ -216,7 +216,6 @@ function App() {
       "VERSION:3.0",
       `FN:${CONTACT.name}`,
       `ORG:Micarelli`,
-      `TITLE:${CONTACT.role}`,
       `TEL;TYPE=CELL:+${CONTACT.whatsapp}`,
       `EMAIL:${CONTACT.email}`,
       `URL:${CONTACT.website}`,
