@@ -3,7 +3,7 @@ import MoltenMetal from "./MoltenMetal";
 
 const CONTACT = {
   name: "Valdecir Micarelli",
-  role: "Clube do Auto",
+  role: "Micarelli",
 
   // Opcional.
   photo: "./valdecir.png",
@@ -11,14 +11,14 @@ const CONTACT = {
   // Coloque somente números.
   whatsapp: "5511996321637",
 
-  instagram: "clubedoauto",
+  instagram: "micarelli",
 
-  website: "https://www.clubedoauto.com/",
+  website: "https://www.micarelli.com/",
 
   email: "valdi_mica@hotmail.com",
 
   logo:
-    "https://static.wixstatic.com/media/cc5f9f_97428a43f5d44382b78469fbd1f87333~mv2.png/v1/fill/w_450,h_141,al_c,q_85,enc_avif,quality_auto/logo-clube-do-auto-green.png",
+    "https://ui-avatars.com/api/?name=Micarelli&background=10B981&color=FFFFFF",
 };
 
 function Icon({ type }) {
@@ -152,7 +152,7 @@ function App() {
       },
       {
         type: "globe",
-        title: "Clube do Auto",
+        title: "Micarelli",
         subtitle: "Acesse nosso site",
         url: CONTACT.website,
       },
@@ -215,7 +215,7 @@ function App() {
       "BEGIN:VCARD",
       "VERSION:3.0",
       `FN:${CONTACT.name}`,
-      `ORG:Clube do Auto`,
+      `ORG:Micarelli`,
       `TITLE:${CONTACT.role}`,
       `TEL;TYPE=CELL:+${CONTACT.whatsapp}`,
       `EMAIL:${CONTACT.email}`,
@@ -285,7 +285,7 @@ function App() {
               <img
                 className="brand-logo"
                 src={CONTACT.logo}
-                alt="Clube do Auto"
+                alt="Micarelli"
               />
             </div>
 
@@ -405,7 +405,7 @@ function App() {
           <footer className="footer">
 
             <span>
-              Clube do Auto
+              Micarelli
             </span>
 
             <span className="footer-dot" />
