@@ -215,7 +215,7 @@ function App() {
       "BEGIN:VCARD",
       "VERSION:3.0",
       `FN:${CONTACT.name}`,
-      `ORG:Micarelli`,
+      `ORG:Valdecir Micarelli`,
       `TEL;TYPE=CELL:+${CONTACT.whatsapp}`,
       `EMAIL:${CONTACT.email}`,
       `URL:${CONTACT.website}`,
