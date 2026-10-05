@@ -18,7 +18,7 @@ const CONTACT = {
   email: "valdi_mica@hotmail.com",
 
   logo:
-    "./clube-do-auto.png",
+    "./clube-logo.svg",
 };
 
 function Icon({ type }) {
