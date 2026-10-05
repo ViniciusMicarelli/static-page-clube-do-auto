@@ -3,7 +3,7 @@ import MoltenMetal from "./MoltenMetal";
 
 const CONTACT = {
   name: "Valdecir Micarelli",
-  role: "Micarelli",
+  role: "Atendimento personalizado para ajudar você a encontrar o carro ideal.",
 
   // Opcional.
   photo: "./valdecir.png",
@@ -18,7 +18,7 @@ const CONTACT = {
   email: "valdi_mica@hotmail.com",
 
   logo:
-    "https://ui-avatars.com/api/?name=Micarelli&background=10B981&color=FFFFFF",
+    "./clube-do-auto.png",
 };
 
 function Icon({ type }) {
@@ -152,7 +152,7 @@ function App() {
       },
       {
         type: "globe",
-        title: "Micarelli",
+        title: "Site da Loja",
         subtitle: "Acesse nosso site",
         url: CONTACT.website,
       },
@@ -404,7 +404,7 @@ function App() {
           <footer className="footer">
 
             <span>
-              Micarelli
+              Clube do Auto
             </span>
 
             <span className="footer-dot" />
